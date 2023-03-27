@@ -1,0 +1,37 @@
+body {
+    background-image: url(fondo.jpg);
+    background-attachment: local;
+}
+
+a {
+    text-decoration: solid;
+}
+
+
+
+#navbar ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden;
+    z-index: 100;
+    background-color: #00000024;
+}
+
+#navbar li{
+    float: right; /*que los enlaces queden en el margen derecho en una sola fila*/
+}
+
+#navbar li a{
+    padding: 10px 12px;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(245, 232, 52);
+}
+
+#navbar li a:hover{
+    color: aliceblue;
+    padding: 2px 12px;
+    border-bottom-style: dotted;
+}

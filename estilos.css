@@ -7,7 +7,14 @@ a {
     text-decoration: solid;
 }
 
-
+#navbar #mi_icono {
+    float: left;
+    padding: 10px 12px;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(245, 232, 52);
+}
 
 #navbar ul {
     list-style-type: none;
@@ -18,11 +25,12 @@ a {
     background-color: #00000024;
 }
 
-#navbar li{
-    float: right; /*que los enlaces queden en el margen derecho en una sola fila*/
+#navbar li {
+    float: right;
+    /*que los enlaces queden en el margen derecho en una sola fila*/
 }
 
-#navbar li a{
+#navbar li a {
     padding: 10px 12px;
     display: inline-block;
     font-size: 22px;
@@ -30,8 +38,25 @@ a {
     color: rgb(245, 232, 52);
 }
 
-#navbar li a:hover{
+#navbar li a:hover {
     color: aliceblue;
     padding: 2px 12px;
     border-bottom-style: dotted;
+}
+
+#content {
+    padding: 2px;
+    max-width: 1180px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#content header{
+    background-color: rgba(245, 232, 52, 0.537);
+    border: 2px solid rgb(245, 232, 52);
+    padding: 10px;
+    text-align: center;
+    height: 120px;
+    border-radius: 1em;
 }
